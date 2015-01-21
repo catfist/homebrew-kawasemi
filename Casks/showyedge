@@ -1,0 +1,11 @@
+cask :v1 => 'showyedge' do
+  version '2.1.0'
+  sha256 '3ef941ae332785c2b7a8fccb56276de052d5db29'
+
+  url 'https://pqrs.org/osx/ShowyEdge/files/ShowyEdge-2.1.0.dmg'
+  name 'ShowyEdge'
+  homepage 'https://pqrs.org/osx/ShowyEdge/index.html.ja'
+  license :unknown    # todo: change license and remove this comment; ':unknown' is a machine-generated placeholder
+
+  app 'ShowyEdge.app'
+end
